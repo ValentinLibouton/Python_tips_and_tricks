@@ -36,6 +36,20 @@ def insert(self, s):
 
 This will insert the new node in a proper position in the linked list, maintaining the order. Using the length variable could be useful in the cases that you don't have the previous reference to the node, but the trade off is that you have to traverse the linked list twice, once to get the length and other to insert the element in the right position.
 
+Example:
+Let's say we have a linked list with the following values in order: [2, 4, 7, 8, 9] and we want to insert a new node with the value 5.
+
+ `1` Create a new node with the data 5
+* `2` Initialize a current node variable to the head of the list (2)
+* `3` Initialize a counter variable to keep track of the position of the current node.
+* `4` Traverse the list until you find the first node whose data is greater than the data of the new node (7) or the counter variable reaches the length of the list.
+* `5` Insert the new node before the current node.
+
+The linked list after the insertion would look like this: [2, 4, 5, 7, 8, 9].
+
+You can visualize the linked list as a chain of nodes, where each node has a value, and a reference to the next node. Each time you insert a new node, you are breaking the chain and creating a new one, where the new node points to the next node and the previous node points to the new one. The head of the list keeps pointing to the first node in the list and every time you traverse it, you are going through the chain of nodes, following the pointer next.
+
+
 ## `2` Insert node in ordered linkedlist with self.previous
 
 To insert a node in an ordered linked list in Python, you can use the following steps:
