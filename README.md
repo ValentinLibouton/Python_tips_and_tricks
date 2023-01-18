@@ -5,3 +5,4 @@ Python programming tips and tricks
 
 ## 1. Linkedlist
 * `1` Insert node in ordered linkedlist with self.length without self.previous
+* `2` Insert node in ordered linkedlist with self.previous
