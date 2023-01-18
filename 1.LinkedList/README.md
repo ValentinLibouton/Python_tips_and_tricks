@@ -39,7 +39,7 @@ This will insert the new node in a proper position in the linked list, maintaini
 Example:
 Let's say we have a linked list with the following values in order: [2, 4, 7, 8, 9] and we want to insert a new node with the value 5.
 
- `1` Create a new node with the data 5
+* `1` Create a new node with the data 5
 * `2` Initialize a current node variable to the head of the list (2)
 * `3` Initialize a counter variable to keep track of the position of the current node.
 * `4` Traverse the list until you find the first node whose data is greater than the data of the new node (7) or the counter variable reaches the length of the list.
