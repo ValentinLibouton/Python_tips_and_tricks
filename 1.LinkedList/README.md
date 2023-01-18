@@ -3,7 +3,7 @@ Python programming tips and tricks
 
 ![status](https://img.shields.io/badge/status-work%20in%20progress-blue?style=flat-square)
 
-## Insert node in ordered linkedlist with self.length without self.previous
+## `1` Insert node in ordered linkedlist with self.length without self.previous
 
 This will insert the new node in a proper position in the linked list, maintaining the order.
 how to do using the length of the linked list and without the previous?
@@ -36,7 +36,7 @@ def insert(self, s):
 
 This will insert the new node in a proper position in the linked list, maintaining the order. Using the length variable could be useful in the cases that you don't have the previous reference to the node, but the trade off is that you have to traverse the linked list twice, once to get the length and other to insert the element in the right position.
 
-## Insert node in ordered linkedlist with self.previous
+## `2` Insert node in ordered linkedlist with self.previous
 
 To insert a node in an ordered linked list in Python, you can use the following steps:
 
